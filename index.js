@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Jira scripts
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       BradM
 // @match        https://jira.imhdev.com/*
@@ -38,7 +38,7 @@
     var table =
         '<style>' +
         '#total_storypoints{ padding: 8px 20px; }' +
-        '#total_storypoints table{ border: 1px solid #eee;}' +
+        '#total_storypoints table{ border: 1px solid blue;}' +
         '#total_storypoints table th{ text-align:left; }' +
         '</style>' +
         '<strong>Story Point Summary</strong><br />' +
