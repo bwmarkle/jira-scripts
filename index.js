@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Jira scripts
+// @name         Jira - Add story point summary.
 // @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  try to take over the world!
+// @version      0.3
+// @description  Description coming soon.
 // @author       BradM
 // @match        https://jira.imhdev.com/*
 // @grant        none
@@ -38,7 +38,7 @@
     var table =
         '<style>' +
         '#total_storypoints{ padding: 8px 20px; }' +
-        '#total_storypoints table{ border: 1px solid blue;}' +
+        '#total_storypoints table{ border: 1px solid #ddd;}' +
         '#total_storypoints table th{ text-align:left; }' +
         '</style>' +
         '<strong>Story Point Summary</strong><br />' +
